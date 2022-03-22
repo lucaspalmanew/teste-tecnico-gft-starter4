@@ -1,4 +1,8 @@
 # teste-tecnico-gft-starter4
+
+Teste realizado por Lucas de Castro Palma
+
+
 1. Elabore um algoritmo para mostrar os números ímpares existentes em um intervalo.
 O usuário deverá fornecer os valores inicial (inicial > 0) e final (inicial < final) e os
 números ímpares existentes no intervalo ([inicial, final]) devem ser separados por um

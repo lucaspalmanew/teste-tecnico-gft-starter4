@@ -18,8 +18,10 @@ nome Conta com os seguintes atributos (número, titular e saldo) e mais duas cla
 Filhas (ContaCorrente e ContaPoupanca). Na classe Conta deve existir um método
 de nome rendimento que retorna o rendimento mensal da conta, nas classes filhas
 deve existir o mesmo método rendimento, porém com as seguintes regras:
+
 ⦁ Para ContaCorrente, o método rendimento deve retornar o saldo * 0.03;
 ⦁ Para ContaPoupanca, o método rendimento deve retornar o saldo * 0.05;
+
 Por fim, criar uma classe principal que instancie objetos de ContaCorrente e
 ContaPoupanca, adicione no mínimo um valor para cada atributo e imprima cada
 conta (ContaCorrente e ContaPoupanca) com seus devidos rendimentos.
@@ -28,6 +30,6 @@ Obs: Encapsular atributos das classes.
 4. Aproveitando o seu código já escrito na questão 3, crie uma interface chamada
 Imposto que contenha o método calcularImposto() e implemente ela em
 ContaCorrente e ContaPoupanca com a seguinte regra:
+
 ⦁ Para ContaCorrente, o método calcularImposto() deve retornar o rendimento * 25%;
-⦁ Para ContaPoupanca, o método calcularImposto() deve retornar o rendimento *
-10%;
+⦁ Para ContaPoupanca, o método calcularImposto() deve retornar o rendimento * 10%;
